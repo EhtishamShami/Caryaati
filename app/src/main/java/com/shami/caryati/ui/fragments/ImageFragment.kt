@@ -1,0 +1,24 @@
+package com.shami.caryati.ui.fragments
+
+import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import com.shami.caryati.R
+
+/*
+ * Created by Shami on 5/6/2018.
+ */
+class ImageFragment: Fragment(){
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+
+        val view=inflater.inflate(R.layout.image_item,container,false)
+        return view
+    }
+
+    companion object {
+        val newInstance=ImageFragment()
+    }
+
+}

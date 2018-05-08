@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="company">
+        <item>Select Company</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string-array name="carType">
+        <item>Select Car</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string-array name="brand">
+        <item>Select Brand</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string-array name="model">
+        <item>Select Model</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Select Color</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+    <string-array name="palte">
+        <item>Select Plate</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+</resources>

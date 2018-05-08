@@ -17,6 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -118,4 +119,5 @@ dependencies {
     implementation "android.arch.lifecycle:livedata:$arch_life_version"
     annotationProcessor "android.arch.lifecycle:compiler:$arch_life_version"
     testImplementation "android.arch.core:core-testing:$arch_life_version"
+    implementation 'com.android.support:cardview-v7:27.1.0'
 }
